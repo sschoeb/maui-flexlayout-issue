@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BugTestFlexlayout.MainPage">
+
+    <StackLayout Orientation="Vertical">
+        <Label Text="Hallo1"></Label>
+        <FlexLayout>
+            <Label Text="Hallo2"></Label>
+            <Label Text="Hallo3"></Label>
+        </FlexLayout>
+        <Label Text="Hallo4"></Label>
+    </StackLayout>
+</ContentPage>
